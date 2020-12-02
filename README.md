@@ -10,6 +10,7 @@ Este mini projeto foi realizado com objetivo de estudo. É basicamente para busc
 
 ### Recursos 
 - [x]  ReactJS, Typescript e styled-components
+- [x] API: https://api.github.com
 
 ### Como acessar?
 - Abra a pasta do projeto no VSCode
