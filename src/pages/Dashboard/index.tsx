@@ -3,7 +3,7 @@ import { FiChevronRight } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import api from '../../services/api';
 import logoImg from '../../assets/logo.svg';
-import { Title, Form, Repositories, Error } from './styles';
+import { Title, Form, Repositories, Error, RemindSpanBlock } from './styles';
 
 interface Repository {
   full_name: string;
@@ -78,7 +78,11 @@ const Dashboard: React.FC = () => {
         />
         <button type="submit">Pesquisar</button>
       </Form>
-
+      <RemindSpanBlock>
+        <span> Example: AmandaCarvalho1989/github-explorer  </span>
+        <span>- </span>
+        <span> The repository must be public </span>
+      </RemindSpanBlock>
       {inputError && <Error>{inputError}</Error>}
 
       <Repositories>

@@ -10,7 +10,7 @@ export const Title = styled.h1`
   color: #3a3a3a;
   max-width: 450px;
   /* margin-top: 80px; */
-  margin-top: 40px;
+  margin-top: 24px;
   line-height: 56px;
 `;
 
@@ -112,4 +112,13 @@ export const Repositories = styled.div`
       color: #cbcbd6;
     }
   }
+`;
+
+export const RemindSpanBlock = styled.div`
+  margin-top: 1rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 1rem;
+  color: rgba(58, 58, 58, .5);
 `;
